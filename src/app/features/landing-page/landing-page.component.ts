@@ -7,7 +7,7 @@ import { LandingPageTechnologiesComponent } from './landing-page-technologies/la
 import { LandingPageContactComponent } from './landing-page-contact/landing-page-contact.component';
 
 @Component({
-  selector: 'kaua-landing-page',
+  selector: 'am-landing-page',
   standalone: true,
   imports: [
     MatButtonModule,

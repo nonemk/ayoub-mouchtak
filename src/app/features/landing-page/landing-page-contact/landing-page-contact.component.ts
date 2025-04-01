@@ -10,7 +10,7 @@ interface Contact {
 }
 
 @Component({
-  selector: 'kaua-landing-page-contact',
+  selector: 'am-landing-page-contact',
   standalone: true,
   imports: [CommonModule, MatButtonModule, IconDirective],
   templateUrl: './landing-page-contact.component.html',
@@ -21,27 +21,22 @@ export class LandingPageContactComponent {
     {
       icon: 'linkedin',
       name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/kaualandi',
-    },
-    {
-      icon: 'instagram',
-      name: 'Instagram',
-      link: 'https://www.instagram.com/kauaalandi',
+      link: 'https://www.linkedin.com/in/ayoub-mouchtak',
     },
     {
       icon: 'whatsapp',
       name: 'WhatsApp',
-      link: 'https://wa.me/5521999222644',
+      link: 'https://wa.me/212660468568',
     },
     {
       icon: 'github',
       name: 'GitHub',
-      link: 'https://github.com/kaualandi',
+      link: 'https://github.com/nonemk',
     },
     {
       icon: 'envelope',
       name: 'E-mail',
-      link: 'mailto:eu@kaualf.com',
+      link: 'mailto:ayoub.mouchtak@gmail.com',
     },
   ];
 }

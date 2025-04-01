@@ -6,7 +6,7 @@ import { ScrollToDirective } from '@app/shared/directives/scroll-to.directive';
 import { IconDirective } from '../../../shared/directives/icon.directive';
 
 @Component({
-  selector: 'kaua-landing-page-hero',
+  selector: 'am-landing-page-hero',
   standalone: true,
   imports: [
     MatButtonModule,

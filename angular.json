@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "kaualandi": {
+    "ayoubmouchtak": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -93,10 +93,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "kaualandi:build:production"
+              "buildTarget": "ayoubmouchtak:build:production"
             },
             "development": {
-              "buildTarget": "kaualandi:build:development"
+              "buildTarget": "ayoubmouchtak:build:development"
             }
           },
           "defaultConfiguration": "development"

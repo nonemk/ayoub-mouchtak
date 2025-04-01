@@ -8,7 +8,7 @@ export interface IService {
 }
 
 @Component({
-  selector: 'kaua-landing-page-services',
+  selector: 'am-landing-page-services',
   standalone: true,
   imports: [IconDirective],
   templateUrl: './landing-page-services.component.html',
@@ -18,18 +18,18 @@ export class LandingPageServicesComponent {
   public services: IService[] = [
     {
       icon: 'display_code',
-      title: 'Websites e Aplicativos',
-      description: 'Desenvolvimento de interfaces',
+      title: "Websites and Applications",
+      description: "Interface Development"
     },
     {
       icon: 'server',
-      title: 'API e banco de dados',
-      description: 'Criação de serviços do sistema',
+      title: "API and Database",
+      description: "System Service Development"
     },
     {
       icon: 'robot',
-      title: 'Chatbots e automações',
-      description: 'Integração com AI e mensageiros',
+      title: "Chatbots and Automations",
+      description: "Integration with AI and Messengers"
     },
   ];
 }

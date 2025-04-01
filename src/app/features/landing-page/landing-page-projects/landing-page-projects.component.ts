@@ -2,7 +2,7 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 
 @Component({
-  selector: 'kaua-landing-page-projects',
+  selector: 'am-landing-page-projects',
   standalone: true,
   imports: [MatButtonModule],
   templateUrl: './landing-page-projects.component.html',

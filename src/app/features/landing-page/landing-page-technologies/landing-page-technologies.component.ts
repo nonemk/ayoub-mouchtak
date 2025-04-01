@@ -11,7 +11,7 @@ interface ITechnology {
 }
 
 @Component({
-  selector: 'kaua-landing-page-technologies',
+  selector: 'am-landing-page-technologies',
   standalone: true,
   imports: [
     CommonModule,
@@ -30,9 +30,9 @@ export class LandingPageTechnologiesComponent {
       url: 'https://angular.dev/',
     },
     {
-      name: 'Next.js',
-      logo: 'nextjs',
-      url: 'https://nextjs.org/',
+      name: 'Spring Boot',
+      logo: 'springBoot',
+      url: 'https://https://spring.io//',
     },
     {
       name: 'Sass',
@@ -45,24 +45,9 @@ export class LandingPageTechnologiesComponent {
       url: 'https://typescriptlang.org/',
     },
     {
-      name: 'Node.js',
-      logo: 'nodejs',
-      url: 'https://nodejs.org/',
-    },
-    {
-      name: 'NestJS',
-      logo: 'nestjs',
-      url: 'https://nestjs.com/',
-    },
-    {
       name: 'TailwindCSS',
       logo: 'tailwindcss',
       url: 'https://tailwindcss.com/',
-    },
-    {
-      name: 'Shopify',
-      logo: 'shopify',
-      url: 'https://shopify.dev/',
     },
   ];
 }
